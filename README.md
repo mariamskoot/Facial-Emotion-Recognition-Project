@@ -1,48 +1,45 @@
-# Facial-Emotion-Recognition-Project
-
 # Facial Emotion Recognition using CNN 😄😢😡
 
-This project detects facial emotions using a Convolutional Neural Network (CNN), with two interactive interfaces:
-- 📸 Real-time emotion detection using **OpenCV and webcam**
-- 🖥 GUI interface using **Tkinter**
+This project is a facial emotion recognition system using Convolutional Neural Networks (CNN). It includes two interactive interfaces:
+- A real-time webcam interface using **OpenCV**
+- A graphical user interface (GUI) using **Tkinter**
+
+The system is capable of detecting facial expressions such as happy, sad, angry, and more.
 
 ---
 
-## 📁 Project Structure
+## 🔍 Features
 
-- `Facial Emotion Recognition Project.ipynb` — Main notebook with model training
-- `camera_interface.py` — Real-time webcam interface (OpenCV)
-- `gui_interface.py` — Tkinter-based GUI interface
-- `model.h5` — Trained CNN model
-- `requirements.txt` — List of required Python libraries
-- `README.md` — Project documentation
+- Trains a CNN model to classify facial emotions.
+- Real-time emotion detection using the webcam.
+- GUI for selecting images and displaying predictions.
+- Visual output for detected emotions.
 
 ---
 
-## 🧠 Features
-
-- Train a CNN model on a facial emotion dataset
-- Predict emotions in real-time from webcam feed
-- User-friendly GUI interface for image selection and prediction
-- Visual feedback of detected emotions
-
----
-
-## 🔧 Technologies Used
+## 🧠 Technologies Used
 
 - Python
 - TensorFlow / Keras
 - OpenCV
 - Tkinter
-- Matplotlib
 - NumPy
+- Matplotlib
 
 ---
 
-## 🚀 How to Run the Project
+## 📁 Project Files
 
-### 1. Clone the Repository
+- `Facial Emotion Recognition Project.ipynb`: Jupyter notebook for training and evaluation
+- `camera_interface.py`: OpenCV-based interface for webcam emotion detection
+- `gui_interface.py`: Tkinter-based graphical interface
+- `model.h5`: Trained CNN model
+- `requirements.txt`: List of dependencies
+- `README.md`: Project documentation (this file)
 
-```bash
-git clone https://github.com/USERNAME/facial-emotion-recognition.git
-cd facial-emotion-recognition
+---
+
+## 📊 Dataset
+
+The project uses the FER2013 dataset from Kaggle:  
+🔗 [https://www.kaggle.com/datasets/msambare/fer2013](https://www.kaggle.com/datasets/msambare/fer2013)
